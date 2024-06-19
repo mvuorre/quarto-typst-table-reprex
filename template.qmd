@@ -1,0 +1,15 @@
+---
+title: Untitled
+format:
+  example-typst: default # Tables have gridlines
+  typst: default # Tables don't have gridlines
+---
+
+```{r}
+knitr::kable(data.frame(a = 1:2, b = 3:4))
+```
+
+```{r}
+#| echo: false
+knitr::kable(data.frame(a = 1:2, b = 3:4))
+```

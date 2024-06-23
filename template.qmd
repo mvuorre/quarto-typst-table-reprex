@@ -1,15 +1,10 @@
 ---
-title: Untitled
-format:
-  example-typst: default # Tables have gridlines
-  typst: default # Tables don't have gridlines
+title: "Hello, Quarto"
+format: typst
+bibliography: bibliography.bib
+bibliographystyle: apa
 ---
 
-```{r}
-knitr::kable(data.frame(a = 1:2, b = 3:4))
-```
+This should say et al @bolger2019.
 
-```{r}
-#| echo: false
-knitr::kable(data.frame(a = 1:2, b = 3:4))
-```
+This should say et al @bolger2019.
